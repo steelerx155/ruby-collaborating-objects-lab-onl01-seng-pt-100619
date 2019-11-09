@@ -28,7 +28,7 @@ class Song
      binding.pry
       self.find_by_name(artist_name)
     else
-      self.new(name)
+      self.new(artist_name)
     end
     
   end
