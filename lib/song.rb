@@ -32,7 +32,7 @@ class Song
     find_by_name(name)
     find_by_name(name)  
     end
-  # end
+  end
 end  
 
 
