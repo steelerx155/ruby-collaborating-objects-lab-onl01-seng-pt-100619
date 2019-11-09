@@ -34,7 +34,7 @@ class Song
     self.find_by_artist(name)
     self.find_by_artist(name)  
     end
-  end
+  
 end  
 
 
