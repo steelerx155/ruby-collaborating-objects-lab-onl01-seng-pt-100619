@@ -23,28 +23,15 @@ class Song
     new_song
   end
   
-#   def artist_name=(name)
-#     # binding.pry
-#     # self.find_or_create_by(Artist.new) do |artist| 
-      
-#     end
-#   # end
-# end  
-
- def self.find_by_name(name)
+  def artist_name=(name)
     # binding.pry
-    self.all.find {| song | song.name == name}
     
-  end
-  
-  def self.find_or_create_by_name(name)
-    if self.find_by_name(name)
-      self.find_by_name(name)
-    else
-      self.new(name)
+      
     end
-     
-  end
+  # end
+end  
+
+
 
 
 # #artist_name=
