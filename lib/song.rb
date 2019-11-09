@@ -27,7 +27,7 @@ class Song
     # binding.pry
     # self.find_or_create_by(Artist.new) do |artist| 
       
-  #   end
+    end
   # end
 end  
 
