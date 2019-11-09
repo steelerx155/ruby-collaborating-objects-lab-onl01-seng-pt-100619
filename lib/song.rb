@@ -29,7 +29,7 @@ class Song
     # binding.pry
     art = name
     artists_song = @name
-    
+    Artist.find_or_create_by_name(name)
     
     end
   
