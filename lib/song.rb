@@ -26,7 +26,7 @@ class Song
   
   
   def artist_name=(name)
-    binding.pry
+    # binding.pry
     names = Artist.const_get(name)
     
     end
