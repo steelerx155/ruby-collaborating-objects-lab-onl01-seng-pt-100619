@@ -26,8 +26,8 @@ class Song
   def artist_name(name)
    binding.pry
     # self.all.find {| artist | artist.name == name}
-    if self.find_by_name(name)
-      self.find_by_name(name)
+    if self.artist_name(name)
+      self.artist_name(name)
     else
       self.new(name)
     end
