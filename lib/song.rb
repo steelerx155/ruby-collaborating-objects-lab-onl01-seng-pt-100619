@@ -24,9 +24,8 @@ class Song
   end
   
   def artist_name(artist_name)
-   if self.find_by_name(artist_namename)
-     binding.pry
-      self.find_by_name(artist_name)
+   if self.find_by_name(artist_name)
+       self.find_by_name(artist_name)
     else
       self.new(artist_name)
     end
