@@ -28,7 +28,6 @@ class Song
   def artist_name=(name)
     # binding.pry
     art = name
-    
     artists_song = name
     
     
