@@ -28,8 +28,8 @@ class Song
     # self.all.find {| artist | artist.name == name}
     if self.artist_name(name)
       self.artist_name(name)
-    else
    binding.pry
+    else
       self.new(name)
     end
     
