@@ -24,7 +24,7 @@ end
   end
   
   def self.find_by_name(name)
-    binding.pry
+    # binding.pry
     self.all.find {| song | song.name == name}
     
   end
