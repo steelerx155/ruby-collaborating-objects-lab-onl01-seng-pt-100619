@@ -24,7 +24,7 @@ class Song
   end
   
   def artist_name(name)
-    find_or_create_by(Artist.new)
+    find_or_create_by(self.new)
     
   end
 end  
