@@ -23,7 +23,7 @@ class Song
     new_song
   end
   
-  def self.find_by_name(name)
+  def self.find_by_artist(artist)
       self.all.find {| artist | artist.name == name}
     
   
