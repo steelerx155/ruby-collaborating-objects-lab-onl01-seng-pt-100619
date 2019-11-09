@@ -27,7 +27,7 @@ class Song
    if self.find_or_create_by(artist_name)
       self.find_or_create_by(artist_name)
     else
-      self.new(name)
+      self.new(artist_name)
   end    
 end
 
