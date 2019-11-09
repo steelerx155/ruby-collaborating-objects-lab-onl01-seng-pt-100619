@@ -25,9 +25,7 @@ class Song
   
   def artist_name(artist_name)
    find_or_create_by(Artist.new)  
-  
-    
-    
+  new_song.Artist
   end
 
 
