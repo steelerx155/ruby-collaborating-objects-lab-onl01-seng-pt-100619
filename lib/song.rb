@@ -25,7 +25,7 @@ class Song
   
   def artist_name=(name)
     # binding.pry
-    
+    find_by_name(name)
       
     end
   # end
