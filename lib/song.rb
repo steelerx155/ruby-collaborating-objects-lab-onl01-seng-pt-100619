@@ -29,20 +29,5 @@ class Song
     # binding.pry
     self.artist = Artist.find_or_create_by_name(name)
     artists_song = @name
-    
-    
     end
-  
 end  
-
-
-
-
-# #artist_name=
-#     accepts an artist's name, finds or creates an Artist instance and assigns it to the Song's artist attribute (FAILED - 1)
-
-# Failures:
-
-#   1) Song #artist_name= accepts an artist's name, finds or creates an Artist instance and assigns it to the Song's artist attribute
-#     Failure/Error: expect(song.artist).to be_an(Artist)
-#       expected nil to be a kind of Artist
